@@ -1,13 +1,15 @@
 body {
 	font-family: Verdana, courier;
-	background: #94aacc; //url(../images/back.png) #94aacc;
+	background: #f7edde; //url(../images/back.png) #94aacc;
 	background-repeat: repeat;
+	font-size: 19px;
 }
 h1 {
 
+	font-size: 50px;
+	color: rgba(0,0,0,.6);
+	text-shadow: rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px;
 	
-	text-shadow: 1px 1px 3px rgba(152, 117, 69, 0.77);
-	color: #e5ab4e
 }
 
 .mydiv {
@@ -22,7 +24,7 @@ h1 {
 	border-color: #f9ba54; //#4569a0
 	border-width: 3px;
 	border-style: solid;
-	border-radius: 2px 2px 12px 12px;
+	
 	margin: 5px;
 
 }
@@ -48,14 +50,20 @@ h2 {
 }
 .about-me li {
 	display: inline-block;
-}
-.about-me li a {
-	display: block;
+	padding: 5px 12px;
 	text-align: center;
-	padding: 12px;
-
+	border-style: solid;
+	border-color: #f9ba54;
 }
-.about-me li a:hover {
+
+.skills {
+	margin-top: 15px;
+}
+.projects {
+	margin-top: 15px;
+}
+
+.about-me li:hover {
 	background-color: #e5ab4e;
 }
 .skills ul{
