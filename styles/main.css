@@ -1,0 +1,72 @@
+body {
+	font-family: Verdana, courier;
+	background: #94aacc; //url(../images/back.png) #94aacc;
+	background-repeat: repeat;
+}
+h1 {
+
+	
+	text-shadow: 1px 1px 3px rgba(152, 117, 69, 0.77);
+	color: #e5ab4e
+}
+
+.mydiv {
+	margin: 2rem 10rem 0rem 10rem;
+}
+
+
+
+.card {
+	float:left;
+
+	border-color: #f9ba54; //#4569a0
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 2px 2px 12px 12px;
+	margin: 5px;
+
+}
+.about-me {
+	padding: 3% 0 1% 0;
+ 	border-color: #f9ba54; //#4569a0
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 12px;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	padding-top: 3%;
+}
+.about-me ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+
+}
+.about-me li {
+	display: inline-block;
+}
+.about-me li a {
+	display: block;
+	text-align: center;
+	padding: 12px;
+
+}
+.about-me li a:hover {
+	background-color: #e5ab4e;
+}
+.skills ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.skills li {
+	display: inline-block;
+
+	padding: 8px;
+}
