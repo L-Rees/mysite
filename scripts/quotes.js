@@ -93,7 +93,7 @@ $(document).ready(function(){
 	{quote: "I need to listen well so that I hear what is not said.", speaker: "Thuli Madonsela"},
 	{quote: "I try to live in a little bit of my own joy and not let people steal it or take it.", speaker: "Hoda Kotb"},
 	{quote: "It's not the absence of fear, it's overcoming it. Sometimes you've got to blast through and have faith.", speaker: "Emma Watson"},
-	{quote: "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.", speaker: "Anaïs Nin"},
+	{quote: "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.", speaker: "Anais Nin"},
 	{quote: "I learned compassion from being discriminated against. Everything bad that's ever happened to me has taught me compassion.", speaker: "Ellen DeGeneres"},
 	{quote: "When I'm tired, I rest. I say, 'I can't be a superwoman today.'", speaker: "Jada Pinkett Smith"},
 	{quote: "Don't live life in the past lane.", speaker: "Samantha Ettus"},
@@ -109,11 +109,15 @@ $(document).ready(function(){
 		$("#speaker").html(function(){
 			return randomQuote.speaker;
 		});
+		$("#twitter").attr("data-text", function(){
+			return "\"" + randomQuote.quote + "\"\n" + randomQuote.speaker;
+		})
 	};
 	newQuote();
 
 
     $("#more").click(newQuote);
+
 });
 
 
